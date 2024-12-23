@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "../.." // Root of the backend project
+		},
+		{
+			"path": "../../controllers" // Controllers folder
+		},
+		{
+			"path": "../../../interface/frontend" // Path to your frontend project
+		},
+		{
+			"path": "../../models" // Models folder for Mongoose schemas
+		},
+		{
+			"path": "../../routes" // Routes folder for Express routes
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"node_modules": true, // Hide node_modules for cleaner view
+			".env": true // Optionally hide environment files for security
+		},
+		"editor.tabSize": 2, // Ensure consistent formatting
+		"editor.formatOnSave": true // Automatically format code on save
+	}
+}
